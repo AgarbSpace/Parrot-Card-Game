@@ -1,4 +1,4 @@
-let cartas = [];
+let cartasJogo = ['<img src="assets/bobrossparrot.gif" alt="">','<img src="assets/explodyparrot.gif" alt="">','<img src="assets/fiestaparrot.gif" alt="">','<img src="assets/metalparrot.gif" alt="">','<img src="assets/revertitparrot.gif" alt="">','<img src="assets/tripletsparrot.gif" alt="">','<img src="assets/unicornparrot.gif" alt="">'];
 
 function iniciarJogo(){
    
@@ -21,7 +21,7 @@ function iniciarJogo(){
                     <img src="assets/front.png" alt="">
                 </div>
                 <div class="back-face face">
-                    Verso
+                    ${cartasJogo[i]}
                 </div>
             </div>
         `
