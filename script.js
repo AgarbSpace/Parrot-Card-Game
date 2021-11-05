@@ -14,7 +14,7 @@ function iniciarJogo(){
     if (numeroCartas === 4 || numeroCartas === 6 || numeroCartas === 8 || numeroCartas === 10 || numeroCartas === 12 || numeroCartas === 14) {
         const cartas = document.querySelector(".jogoIniciado");
         
-        for(let i = 0; i < numeroCartas; i++){
+        for(let i = 0; i < (numeroCartas/2); i++){
             cartas.innerHTML += ` 
             <div class="card">
                 <div class="front-face face">
@@ -22,6 +22,19 @@ function iniciarJogo(){
                 </div>
                 <div class="back-face face">
                     ${cartasJogo[i]}
+                </div>
+            </div>
+        `
+        }
+
+        for(let j = 0; j < numeroCartas/2; j++){
+            cartas.innerHTML += ` 
+            <div class="card">
+                <div class="front-face face">
+                    <img src="assets/front.png" alt="">
+                </div>
+                <div class="back-face face">
+                    ${cartasJogo[j]}
                 </div>
             </div>
         `
