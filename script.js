@@ -32,11 +32,11 @@ function iniciarJogo(){
 
         for(let j = 0; j < numeroCartas; j++){
             cartas.innerHTML += ` 
-            <div class="card" onclick = "virar(this)">
-                <div class="front-face face">
+            <div data-identifier="card" class="card" onclick = "virar(this)">
+                <div data-identifier="front-face" class="front-face face">
                     <img src="assets/front.png" alt="">
                 </div>
-                <div class="back-face face">
+                <div data-identifier="back-face" class="back-face face">
                     ${cartasJogoRepetidas[j]}
                 </div>
             </div>

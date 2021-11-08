@@ -27,6 +27,19 @@ header{
     margin-bottom: 47px;
 }
 
+button{
+    background-color: #75B79E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    margin-top: 150px;
+}
+
 .titulo{
     font-size: 56px;
     font-weight: 700;
@@ -64,6 +77,7 @@ img{
     width: 872px;
 
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
     gap: 34px;
@@ -103,3 +117,36 @@ img{
     transform: rotateY(-180deg);
 }
 
+@media (max-width: 335px){
+
+    body{
+        width: 335px;
+        height: 400vh;
+    }
+
+    main{
+        width: 335px;
+    }
+
+    
+
+    .titulo{
+    width: 250px;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.004em;
+    text-align: center;
+
+    }
+
+    .jogoIniciado{
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
