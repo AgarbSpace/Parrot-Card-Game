@@ -85,16 +85,10 @@ function pares(){
         segundaCartaSelecionada.classList.remove("virar");
         segundaCartaSelecionada.classList.add("virada");
         fim++;
-        console.log(numeroCartas);
-        console.log(fim);
-   
-        let teste = "ta entrando"
-        console.log(teste);
+        
         return;
     }else{
         desvira();
-        let teste2 = "ta entrando no desvira"
-        console.log(teste2);
     }
 
 }

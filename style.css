@@ -109,6 +109,7 @@ img{
 .virar .front-face {
     transform: rotateY(-180deg);
 }
+
 .virada .back-face {
     transform: rotateY(0deg);
 }
@@ -128,17 +129,15 @@ img{
         width: 335px;
     }
 
-    
-
     .titulo{
-    width: 250px;
+        width: 250px;
 
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: -0.004em;
-    text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.004em;
+        text-align: center;
 
     }
 
@@ -147,6 +146,5 @@ img{
         display: flex;
         flex-wrap: wrap;
     }
-
 
 }
