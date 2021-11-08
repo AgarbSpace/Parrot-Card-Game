@@ -118,7 +118,7 @@ img{
     transform: rotateY(-180deg);
 }
 
-@media (max-width: 400px){
+@media (max-width: 335px){
 
     body{
         width: 100%;
