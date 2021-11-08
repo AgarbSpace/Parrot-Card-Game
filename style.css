@@ -7,7 +7,7 @@ body{
     font-style: normal;
     
     width: 1110px;
-    height: 659px;
+    height: 679px;
 
 }
 
@@ -88,10 +88,18 @@ img{
     transform: rotateY(180deg);
 }
 
-.card:hover .back-face {
+.virar .back-face {
     transform: rotateY(0deg);
 }
 
-.card:hover .front-face {
+.virar .front-face {
     transform: rotateY(-180deg);
 }
+.virada .back-face {
+    transform: rotateY(0deg);
+}
+
+.virada .front-face {
+    transform: rotateY(-180deg);
+}
+
